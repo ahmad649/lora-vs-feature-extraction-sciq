@@ -31,11 +31,11 @@ Backbone fully frozen; only a small task-specific MLP head trained on the extrac
 
 ## Results
 
-| Approach | Trainable Params | Exact Match | Token F1 | Perplexity | Train Time |
-|---|---|---|---|---|---|
-| LoRA (Conservative) | _add_ | _add_ | _add_ | _add_ | _add_ |
-| LoRA (Improved) | _add_ | _add_ | _add_ | _add_ | _add_ |
-| Feature Extraction (Frozen + MLP) | _add_ | _add_ | _add_ | _add_ | _add_ |
+| Approach | Trainable Params | Exact Match (%) | Token F1 (%) | Perplexity |
+|---|---|---:|---:|---:|
+| LoRA (Conservative) | ~476K (LoRA adapters) | 33.80 | 41.37 | 2.87 |
+| LoRA (Improved) | ~476K (LoRA r=16 adapters) | **41.32** | **51.82** | **2.39** |
+| Feature Extraction (Frozen + MLP) | ~197K (linear projection) | 3.06 | 8.64 | N/A |
 
 
 ## Approach
