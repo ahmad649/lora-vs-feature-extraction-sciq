@@ -55,8 +55,7 @@ Backbone fully frozen; only a small task-specific MLP head trained on the extrac
 ```
 .
 ├── notebook/
-│   └── lora_vs_feature_extraction_sciq.ipynb   # Full pipeline + all 3 experiments
-├── report/
+│   └── lora_vs_feature_extraction_sciq.ipynb   # Full pipeline + all 3 experiments + plots + report
 ├── requirements.txt
 └── README.md
 ```
